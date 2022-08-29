@@ -8,10 +8,10 @@ export const HeaderContainer = styled.div`
   background-size: cover;
   display: flex;
   justify-content: center;
-  align-items: center;
 `
 
 export const LogoImg = styled.img`
   width: 9.25rem;
   height: 6.125rem;
+  margin-top: 4rem;
 `
