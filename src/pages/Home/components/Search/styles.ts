@@ -3,8 +3,6 @@ import styled from "styled-components";
 export const SearchPostContainer = styled.div`
   margin-top: 4.5rem;
   width: 54rem;
-
-  
 `
 export const TitleInput = styled.div`
   display: flex;

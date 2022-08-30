@@ -74,6 +74,10 @@ export const LinkGithub = styled.div`
   color: ${props => props.theme["blue"]};
   font-size: 0.75rem;
 
+  &:hover {
+    border-bottom: 1px solid ${props => props.theme.blue};
+  }
+
   svg {
     width: 0.75rem;
     height: 0.75rem;
