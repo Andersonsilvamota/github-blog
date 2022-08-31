@@ -1,6 +1,9 @@
 import styled from "styled-components";
 
 export const ContainerPost = styled.div`
+`
+
+export const ContainerPostHeader = styled.div`
   width: 54rem;
   max-width: 54rem;
   display: flex;
