@@ -23,6 +23,8 @@ export const InfoContent = styled.div`
   display: flex;
   flex-direction: column;
   gap: 1rem;
+  width: 38.25rem;
+  height: 8.75rem;
 
   p{
     color: ${props => props.theme["base-text"]};
@@ -47,6 +49,7 @@ export const NameProfile = styled.div`
 export const SocialMediaProfile = styled.div`
   display: flex;
   gap: 1.5rem;
+  padding: 0.5rem 0 0 0 ;
 
   svg {
     width: 1.125rem;
@@ -67,12 +70,13 @@ export const SocialMediaProfile = styled.div`
     font-weight: normal;
   }
 `
-export const LinkGithub = styled.div`
+export const LinkGithub = styled.a`
   display: flex;
   gap: 6px;
   cursor: pointer;
   color: ${props => props.theme["blue"]};
   font-size: 0.75rem;
+  text-decoration: none;
 
   &:hover {
     border-bottom: 1px solid ${props => props.theme.blue};
